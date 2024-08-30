@@ -25,7 +25,4 @@ export class ProductCardComponent {
   public loginEffect = effect(() => {
     console.log(this.product().name)
   })
-
-
-
 }
